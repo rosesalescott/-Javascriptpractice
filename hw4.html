@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Rock sicssor paper</title>
+</head>
+<body>
+<body>
+
+<p>Which one will it be?</p>
+
+ <a href="#" onclick="playGame('rock')">rock</a>
+
+ <a href="#" onclick="playGame('paper')">paper</a>
+
+ <a href="#" onclick="playGame('scissors')">scissors</a>
+<script scr="get.js"></script>
+</body>
+</html>
+
+
+
+<head>
+<script>
+playGame = function(Click){
+
+
+ if (Click=='rock') {
+
+result = "tie";
+
+ }
+
+ if (Click=='paper') {
+
+result = "win";
+
+ }  
+
+ if (Click=='scissors') {
+
+result = "lose";
+
+ }    
+
+ alert("You " + result + "!");
+
+}
+</script>
+</head>
